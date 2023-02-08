@@ -6,8 +6,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>MyCropMonitor.com</title>
-    <link rel="stylesheet" href="css/style.css">
-    <link rel="stylesheet" media="screen and (max-width:1020px)" href="css/phone.css">
+    <link rel="stylesheet" href="static/css/style.css">
+    <link rel="stylesheet" media="screen and (max-width:1020px)" href="static/css/phone.css">
     <link
         href="https://fonts.googleapis.com/css2?family=Bree+Serif&family=Clicker+Script&family=Montserrat:wght@200;300;400;500;600;700;800;900&family=Poppins:wght@200;300;400;500;600;700;800;900&family=Ubuntu&display=swap"
         rel="stylesheet">
@@ -16,7 +16,7 @@
 <body>
     <nav id="navbar">
         <div id="logo">
-            <img src="img/logoo1.png" alt="MyCropMonitor.com">
+            <img src="static/img/logoo1.png" alt="MyCropMonitor.com">
         </div>
 
         <ul>
@@ -38,22 +38,22 @@
     <section id="contoller-container">
         <h1 class="h-primary center">Controller</h1>
         <div class="container">
-            <form action="action_page.php">
+            <form action="/#contoller-container" method="POST">
                 <div class="row">
                     <div class="col-25">
                         <label for="country">Crop Type</label>
                     </div>
                     <div class="col-75">
-                        <select id="country" name="country">
-                            <option value="wheat">Wheat</option>
-                            <option value="ground nuts">Ground Nuts</option>
-                            <option value="garden flowers">Garden flowers</option>
-                            <option value="maize">Maize</option>
-                            <option value="paddy">Paddy</option>
-                            <option value="potato">Potato</option>
-                            <option value="pulse">Pulse</option>
-                            <option value="sugarcane">SugerCane</option>
-                            <option value="coffee">Coffee</option>
+                        <select id="cropType" name="cropType">
+                            <option value="Wheat">Wheat</option>
+                            <option value="Ground Nuts">Ground Nuts</option>
+                            <option value="Garden flowers">Garden flowers</option>
+                            <option value="Maize">Maize</option>
+                            <option value="Paddy">Paddy</option>
+                            <option value="Potato">Potato</option>
+                            <option value="Pulse">Pulse</option>
+                            <option value="SugarCane">Sugar Cane</option>
+                            <option value="Coffee">Coffee</option>
                         </select>
                     </div>
                 </div>
@@ -93,9 +93,16 @@
                 <div class="row">
                     <input type="submit" value="Submit">
                 </div>
-                <p>
+                {% if output == 1%}
+                    <p>
+                        Your crop needs to be irrigated ⚠️
+                    </p>
+                {% elif output == 0 %}
+                    <p>
+                        Your crop is irrigated ✅
+                    </p>
 
-                </p>
+                {% endif %}
             </form>
         </div>
     </section>
