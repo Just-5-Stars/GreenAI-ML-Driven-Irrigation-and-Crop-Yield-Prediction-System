@@ -31,5 +31,5 @@ Available and Upcoming:
 `cd deployment`
 - Step 2: Run the `main.py` script
 `python main.py`
-<!-- </> with 💛 by readMD (https://readmd.itsvg.in) -->
+
     
