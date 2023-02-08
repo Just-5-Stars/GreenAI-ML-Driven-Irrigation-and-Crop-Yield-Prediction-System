@@ -7,11 +7,11 @@
 An IoT System for ANN based Irrigation control system for crops.
 
 # Features
-Available and Upcoming:
-✅ : Recommendation System for Irrigation  
-✅: Artificial Neural Network Model  
-❌ : Real time monitoring of Crops  
-❌: IoT based feature extraction  
+Available and Upcoming:  
+✅ Recommendation System for Irrigation  
+✅ Artificial Neural Network Model  
+❌ Real time monitoring of Crops  
+❌ IoT based feature extraction  
 
 # Artificial Neural Network Architecture
 
