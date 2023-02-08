@@ -1,12 +1,119 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Home Page</title>
+    <title>MyCropMonitor.com</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" media="screen and (max-width:1020px)" href="css/phone.css">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Bree+Serif&family=Clicker+Script&family=Montserrat:wght@200;300;400;500;600;700;800;900&family=Poppins:wght@200;300;400;500;600;700;800;900&family=Ubuntu&display=swap"
+        rel="stylesheet">
 </head>
+
 <body>
-    This is our homepage
+    <nav id="navbar">
+        <div id="logo">
+            <img src="img/logoo1.png" alt="MyCropMonitor.com">
+        </div>
+
+        <ul>
+            <li class="item"><a href="#home">Home</a></li>
+            <li class="item"><a href="#contoller-container">Controller</a></li>
+            <li class="item"><a href="#model">Model</a></li>
+            <!-- <li class="item"><a href="#contact">Contact</a></li> -->
+        </ul>
+    </nav>
+
+    <section id="home">
+        <h1 class="h-primary">Welcome to <span>My Crop Monitor</span></h1>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt dolor ipsa quibusdam aliquid itaque ex,
+            vitae provident eaque autem voluptates.</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt dolor ipsa quibusdam </p>
+        <button class="btn">Lets Get Started</button>
+    </section>
+
+    <section id="contoller-container">
+        <h1 class="h-primary center">Controller</h1>
+        <div class="container">
+            <form action="action_page.php">
+                <div class="row">
+                    <div class="col-25">
+                        <label for="country">Crop Type</label>
+                    </div>
+                    <div class="col-75">
+                        <select id="country" name="country">
+                            <option value="wheat">Wheat</option>
+                            <option value="ground nuts">Ground Nuts</option>
+                            <option value="garden flowers">Garden flowers</option>
+                            <option value="maize">Maize</option>
+                            <option value="paddy">Paddy</option>
+                            <option value="potato">Potato</option>
+                            <option value="pulse">Pulse</option>
+                            <option value="sugarcane">SugerCane</option>
+                            <option value="coffee">Coffee</option>
+                        </select>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-25">
+                        <label for="cropdays">Crop Days</label>
+                    </div>
+                    <div class="col-75">
+                        <input type="number" id="cropdays" name="cropdays" placeholder="1.00" step="0.01" min="0" max="1000">
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-25">
+                        <label for="moisture">Soil Moisture (DHT11 Reading)</label>
+                    </div>
+                    <div class="col-75">
+                        <input type="number" id="moisture" name="moisture"  placeholder="1.00" step="0.01" min="0" max="1000">
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="col-25">
+                        <label for="temperature">Current Temperature (Celsius)</label>
+                    </div>
+                    <div class="col-75">
+                        <input type="number" id="temperature" name="temperature"  placeholder="1.00" step="0.01" min="0" max="1000">
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-25">
+                        <label for="humidity">Current Humidity (Percentage)</label>
+                    </div>
+                    <div class="col-75">
+                        <input type="number" id="humidity" name="humidity"  placeholder="1.00" step="0.01" min="0" max="1000">
+                    </div>
+                </div>
+                <div class="row">
+                    <input type="submit" value="Submit">
+                </div>
+                <p>
+
+                </p>
+            </form>
+        </div>
+    </section>
+
+
+    <section id="model">
+        <h1 class="h-primary center">Model</h1>
+        <div class="left">
+            <!-- <img src="img/newbg2.jpg" alt="">
+            <div>The Fitness Hub</div> -->
+        </div>
+    </section>
+
+    <footer>
+        <div class="center">
+            Copyright &copy; www.MyCropMonitor.com. All rights reserved!
+        </div>
+    </footer>
 </body>
+
 </html>
