@@ -33,6 +33,6 @@ Available and Upcoming:
 `python main.py`
 
 # Contributors
-![Ayushi Indu](https://github.com/ayushi200116)
-![Urvashi Indu](https://github.com/urvashi16)
+![Ayushi Indu](https://github.com/ayushi200116)  
+![Urvashi Indu](https://github.com/urvashi16)  
 ![R Aditya](https://github.com/adityarags)
