@@ -215,6 +215,19 @@ input[type=text],input[type=number], select, textarea{
     opacity: 0.5;
 
 }
+
+#model .left{
+    font-family: 'Bree Serif', serif;
+    margin-top: 20px ;
+    margin-left: 30px;
+    margin-right: 30px;
+    padding :  20px;
+    font-size: 20px;
+}
+
+#image img {
+height: 250px;
+}
 /*
 #model-box {
     display: flex;
