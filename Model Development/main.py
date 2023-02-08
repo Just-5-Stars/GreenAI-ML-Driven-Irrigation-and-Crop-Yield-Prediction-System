@@ -23,15 +23,21 @@ df = df.sort_values(by=['CropType'])
 
 print("--Preprocessed Data--")
 print(df.head())
-
+print(np.unique(df["CropType"]))
 
 # Data split: Features & Labels
 features = df[df.columns[:len(df.columns) - 1]]
 labels = df[df.columns[-1]]
 
+from sklearn.compose import ColumnTransformer
+from sklearn.preprocessing import OneHotEncoder
+ct = ColumnTransformer(transformers = [("encoder", OneHotEncoder(), ["CropType"])], remainder = "passthrough")
+X = np.array(ct.fit_transform(features))
+y = np.array(labels)
+
 # Data split: Training & Testing
 from sklearn.model_selection import train_test_split
-X_train, X_test, y_train, y_test = train_test_split(features, labels, test_size = 0.2, random_state = 0)
+X_train, X_test, y_train, y_test = train_test_split(X, y, test_size = 0.2, random_state = 0)
 
 
 # Scaling the features
@@ -46,12 +52,11 @@ X_test = sc.fit_transform(X_test)
 model = tf.keras.Sequential()
 model.add(tf.keras.layers.Dense(units = 6, activation = "relu"))
 model.add(tf.keras.layers.Dense(units = 6, activation = "relu"))
-model.add(tf.keras.layers.Dense(units = 6, activation = "relu"))
 model.add(tf.keras.layers.Dense(units = 1, activation = "sigmoid"))
 
 # Compiling the model
 model.compile(optimizer = "adam", loss = "binary_crossentropy", metrics = ["accuracy"])
-model.fit(X_train, y_train, epochs = 100)
+model.fit(X_train, y_train, epochs = 50)
 
 # Testing the model
 y_pred = model.predict(X_test)
@@ -63,3 +68,6 @@ cm = confusion_matrix(y_test, y_pred)
 print(cm)
 
 print("Accuracy of the model:", accuracy_score(y_test, y_pred))
+
+# Save the model
+model.save("ANNmodel.h5")
