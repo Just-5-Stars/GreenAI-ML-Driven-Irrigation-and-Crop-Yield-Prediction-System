@@ -31,3 +31,8 @@ Available and Upcoming:
 `cd deployment` 
 - Step 2: Run the `main.py` script  
 `python main.py`
+
+# Contributors
+![Ayushi Indu](https://github.com/ayushi200116)
+![Urvashi Indu](https://github.com/urvashi16)
+![R Aditya](https://github.com/adityarags)
