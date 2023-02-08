@@ -1,6 +1,6 @@
 <div align="center">
-      <h1> ![irrigation](https://user-images.githubusercontent.com/59119736/217533845-c569be50-e38d-420e-b553-a59980ededcc.png)
-            <br/>Automated Irrigation System</h1>
+      ![irrigation](https://user-images.githubusercontent.com/59119736/217533845-c569be50-e38d-420e-b553-a59980ededcc.png)
+            <h1> <br/>Automated Irrigation System</h1>
      </div>
 
 
