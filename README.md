@@ -1,7 +1,7 @@
 
 
 <div align="center">
-    <img src="https://user-images.githubusercontent.com/59119736/217548942-fb8e8a62-0990-4749-8916-0a82e41e9b66.jpeg" width="80px">
+    <img src="https://user-images.githubusercontent.com/59119736/217548942-fb8e8a62-0990-4749-8916-0a82e41e9b66.jpeg" height="80px">
     <h1> <br/>Automated Irrigation System</h1>
 </div>
 
