@@ -108,8 +108,23 @@
     <section id="model">
         <h1 class="h-primary center">Model</h1>
         <div class="left">
-            <!-- <img src="img/newbg2.jpg" alt="">
-            <div>The Fitness Hub</div> -->
+            <p> The brain of the system is an Artificial Neural Network that has been designed to predict if or not
+                irrigation is required for a given set of parameters.
+                The architecture of our neural network consists of an input layer with five features, two hidden layers,
+                each with six artificial neurons and an output layer which is a single neuron that gives a probability
+                score of if or not a crop should be irrigated. If the probability score crosses a threshold, the model
+                signals that the crop needs to be irrigated. The architecture diagram of our ANN is as depicted below</p>
+                <div class="h-primary center">
+                    <img src="/static/img/modelimg.jpeg" alt="">
+                </div>
+            
+            <p>In a real world scenario, the data is received by the model in real time by the use of three sensors,
+                namely: Temperature sensor, Soil Moisture sensor and Humidity sensor. This realtime data allows the
+                model to generate frequent output in order to keep the crop's water need in check.
+                The real time data will be collected and transmitted by the gateway, which will be a raspberry pi
+                running a web server. The data can then be obtained at the client side (Web interface) over Wi-Fi. This
+                also means that these data values can be monitored at realtime, thus providing us better, faster and
+                reliable means of maintaing crops!</p>
         </div>
     </section>
 
