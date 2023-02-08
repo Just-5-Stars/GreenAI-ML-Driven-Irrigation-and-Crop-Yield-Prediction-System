@@ -1,5 +1,5 @@
 <div align="center">
-    <img src="https://user-images.githubusercontent.com/59119736/217533845-c569be50-e38d-420e-b553-a59980ededcc.png">
+    <img src="https://user-images.githubusercontent.com/59119736/217533845-c569be50-e38d-420e-b553-a59980ededcc.png" width="80px">
     <h1> <br/>Automated Irrigation System</h1>
 </div>
 
