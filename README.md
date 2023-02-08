@@ -32,4 +32,10 @@ Available and Upcoming:
 - Step 2: Run the `main.py` script  
 `python main.py`
 
+
+# Collaborators
+![Ayushi Indu]()
+![Urvashi Indu]()
+![R Aditya](github.com/adityarags)
+
     
