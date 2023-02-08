@@ -1,6 +1,5 @@
-# Automated-Irrigation-System
 <div align="center">
-      <h1> <img src="https://pics.freeicons.io/uploads/icons/png/3720871431578888259-512.png" width="80px"><br/>Automated Irrigation Systemf</h1>
+      <h1> <img src="https://pics.freeicons.io/uploads/icons/png/3720871431578888259-512.png" width="80px"><br/>Automated Irrigation System</h1>
      </div>
 
 
