@@ -1,5 +1,5 @@
 <div align="center">
-      <h1> <img src="https://pics.freeicons.io/uploads/icons/png/3720871431578888259-512.png" width="80px"><br/>Automated Irrigation System</h1>
+      <h1> ![irrigation](https://user-images.githubusercontent.com/59119736/217533845-c569be50-e38d-420e-b553-a59980ededcc.png)<br/>Automated Irrigation System</h1>
      </div>
 
 
