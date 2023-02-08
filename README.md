@@ -15,8 +15,9 @@ Available and Upcoming:
 ❌ IoT based feature extraction  
 
 # Artificial Neural Network Architecture
+![Architecture](https://user-images.githubusercontent.com/59119736/217534534-3c68b4c7-24d1-4014-8a06-f6c191edc284.png)
 
- <img src="https://drive.google.com/file/d/1iigCnbciCPJB5GmFiKauaY_ThKhb1pHo/view?usp=sharing">
+
  
 # Tech Used
 
