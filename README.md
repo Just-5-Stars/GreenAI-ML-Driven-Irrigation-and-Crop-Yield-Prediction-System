@@ -36,6 +36,11 @@ Available and Upcoming:
 `python main.py`
 
 # Contributors
+
+<a href="https://github.com/Just-5-Stars/Automated-Irrigation-System/graphs/contributors">
+  <img src="https://contrib.rocks/image?repo=Just-5-Stars/Automated-Irrigation-System" />
+</a>
+
 ![Ayushi Indu](https://github.com/ayushi200116)  
 ![Urvashi Indu](https://github.com/urvashi16)  
 ![R Aditya](https://github.com/adityarags)
