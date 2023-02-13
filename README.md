@@ -41,6 +41,6 @@ Available and Upcoming:
   <img src="https://contrib.rocks/image?repo=Just-5-Stars/Automated-Irrigation-System" />
 </a>
 
-![Ayushi Indu](https://github.com/ayushi200116)  
-![Urvashi Indu](https://github.com/urvashi16)  
-![R Aditya](https://github.com/adityarags)
+[Ayushi Indu](https://github.com/ayushi200116)  
+[Urvashi Indu](https://github.com/urvashi16)  
+[R Aditya](https://github.com/adityarags)
