@@ -1,20 +1,12 @@
-
-
-<div align="center">
-    <img src="https://user-images.githubusercontent.com/59119736/217548942-fb8e8a62-0990-4749-8916-0a82e41e9b66.jpeg" >
-    <h1> <br/>Automated Irrigation System</h1>
-</div>
-
+![image](https://github.com/Just-5-Stars/Automated-Irrigation-System/assets/71700207/8803fcd2-be34-4d1a-9a50-2bd9d11ec0e6)
 
 # Description
-An IoT System for ANN based Irrigation control system for crops.
+GreenAI : ML-Driven Irrigation and Crop Yield Prediction System
 
 # Features
 Available and Upcoming:  
 ✅ Recommendation System for Irrigation  
 ✅ Artificial Neural Network Model  
-❌ Real time monitoring of Crops  
-❌ IoT based feature extraction  
 
 # Artificial Neural Network Architecture
 ![Screenshot from 2023-02-09 00-16-52](https://user-images.githubusercontent.com/59119736/217623840-679a2bac-5639-4134-92d9-8e2c861d5194.png)
